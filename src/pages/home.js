@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
-import ReactDOM from 'react-dom/client';
+// import React, {useState} from 'react';
+// import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Cards from './cards';
 
 export default function Home() {
