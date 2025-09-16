@@ -18,6 +18,9 @@ body {
 }
 
 
+
+/* Card CSS Portion */
+
 .card-scene {
   perspective: 1000px;
   width: 100%;
@@ -211,6 +214,48 @@ body {
 
 
 /* About CSS Portion */
+.space-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.portrait-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.portrait-img {
+  width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  margin-left: 70px;
+  margin-right: auto;
+  border: 5px solid #fff5fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.portrait-img2 {
+  width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 70px;
+  border: 5px solid #fff5fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
 .text-highlight{
   color: rgb(106, 32, 67);
   text-decoration: none;
@@ -223,4 +268,69 @@ body {
 
 .specific-text{
   color: #fffbf2;
+}
+
+
+
+/* Slideshow CSS Portion */
+
+.slideshow {
+  position: relative;
+  width: 600px;
+  height: auto;
+  margin: 1rem auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow-track {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.6s ease;
+}
+
+.slide-container {
+  position: relative;
+  width: 100%;
+}
+
+.slide-image {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(174, 174, 174, 0.473);
+  color: rgba(0, 0, 0, 0.44);
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.slideshow:hover .left-arrow,
+.slideshow:hover .right-arrow {
+  opacity: 1;
+}
+
+.left-arrow {
+  left: 5%;
+}
+
+.right-arrow {
+  right: 5%;
 }

@@ -1,5 +1,3 @@
-import React from 'react';
-// import ReactDOM from 'react-dom/client';
 import { Link } from 'react-router-dom';
 import './index.css';
 
@@ -28,13 +26,15 @@ return (
             My Projects
           </Link>
           <ul className="dropdown-menu">
-            <li className="dropdown-item"><b>Computer Science</b></li>
-            <li><Link className="dropdown-item" href="/">Project 1</Link></li>
-            <li><Link className="dropdown-item" href="/">Project 2</Link></li>
+            <li className="dropdown-item"><b>Artwork</b></li>
+            <li><Link className="dropdown-item" to="/characterdesign">Character Design</Link></li>
+            <li><Link className="dropdown-item" to="/fullpieces">Full Pieces</Link></li>
+            <li><Link className="dropdown-item" to="/storyboards">Storyboards</Link></li>
             <li><hr className="dropdown-divider" /></li>
             <li className="dropdown-item"><b>Video Games</b></li>
-            <li><Link className="dropdown-item" href="/">Project 3</Link></li>
-            <li><Link className="dropdown-item" href="/">Project 4</Link></li>
+            <li><Link className="dropdown-item" to="/confectchaos">Confectionery Chaos</Link></li>
+            <li><Link className="dropdown-item" to="/paradisprom">Paradiso Promenade</Link></li>
+            <li><Link className="dropdown-item" to="/treeslisten">The Trees are Listening</Link></li>
           </ul>
         </li>
         {/* <li className="nav-item">

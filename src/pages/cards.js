@@ -2,11 +2,13 @@ import React, {useState} from 'react';
 // import ReactDOM from 'react-dom/client';
 import './index.css';
 // import { Link } from 'react-router-dom';
+import BTDCover from '../images/BTD_Cover.png';
+import FishingForCover from '../images/FishingForCover.png';
 
 const cards = [
         {
         title: 'Welcome to my personal website!',
-        content: "Front-end Developer, Digital Artist, Game Developer",
+        content: "Front-end Developer, Digital Artist, Practicing Game Developer",
         image: 'https://via.placeholder.com/150/8e44ad/FFFFFF?text=Card+1',
         socials: [
             {name: 'GitHub', icon: '/icons/github_icon.png', url: 'https://github.com/JaidJaceB10'},
@@ -17,7 +19,11 @@ const cards = [
         {
         title: 'Here are some of my projects!',
         content: "Below are just a few projects I've worked on!",
-        image: 'https://via.placeholder.com/150/27ae60/FFFFFF?text=Card+2'
+        image: [
+            {name: 'Beyond the Depths', image: BTDCover, link:''},
+            {name: 'Fishing For...?', image: FishingForCover, link:''},
+            {name: 'Paradiso Promenade', image:'https://via.placeholder.com/150/16a085/FFFFFF?text=Card+2', link:''},
+        ]
         },
         {
         title: 'Thanks for visiting!',
