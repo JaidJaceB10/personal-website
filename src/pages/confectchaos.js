@@ -1,6 +1,9 @@
 import Slideshow from './slideshow';
 import './index.css';
 
+//Import Images
+import CCDevshot from '../images/CC_devshot.png'
+
 export default function ConfectioneryChaos() {
   return (
     <div className="space-container">
@@ -20,6 +23,15 @@ export default function ConfectioneryChaos() {
       <p>
         <b>Status:</b> Currently in-development
       </p>
+
+      <h2>Development Screenshots</h2>
+      <p>
+        If you would like to see these designs on Figma, <a className='text-highlight' href="https://www.figma.com/design/Pbtv00WvfIY93IjIvfRZLe/CCC-Screen-Test?node-id=0-1&t=9Ld2Mw1Mso8CiTQb-1"><u>please click here!</u></a>
+      </p>
+      <div>
+
+      </div>
+      <img src={CCDevshot} alt="UI/UX design progress for Confectionery Chaos" width={650}/>
 
     </div>
   )

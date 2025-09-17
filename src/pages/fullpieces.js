@@ -64,7 +64,7 @@ export default function FullPieces() {
         BUT they are personally designed as how I see fit-- as within the media itself they are not depicted as human/oid.
       </p>
       <ul> Currently featured are characters from:
-        <li>"X Finds Out His Value", aka "XFOHV", which can be found <a href='https://www.youtube.com/@BFDI'>here.</a></li>
+        <li>"X Finds Out His Value", aka "XFOHV", which can be found <a className="text-highlight"href='https://www.youtube.com/@BFDI'><u>here.</u></a></li>
       </ul>
 
       <Slideshow images={FanartImages} />

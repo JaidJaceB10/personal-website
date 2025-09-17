@@ -17,6 +17,19 @@ body {
   padding: 2rem;
 }
 
+/* Contact CSS Portion */
+.my-image {
+  display: block;
+  margin: 0 auto;
+  width: 455px;
+  height: 470px;
+}
+
+.align-container {
+  display: flex;
+  align-items:center;
+}
+
 
 
 /* Card CSS Portion */
@@ -30,7 +43,7 @@ body {
   position: relative;
   cursor: pointer;
   height: auto;
-  min-height: 320px
+  min-height: 780px;
 }
 
 .card {
@@ -64,13 +77,13 @@ body {
 .card.middle {
   z-index: 2;
   transform: rotateY(15deg) scale(0.95) translateX(15px);
-  opacity: 0.5;
+  opacity: 7%;
 }
 
 .card.back {
   z-index: 1;
   transform: rotateY(30deg) scale(0.9) translateX(30px);
-  opacity: 0.3;
+  opacity: 5%;
 }
 
 .card-content {
@@ -79,8 +92,28 @@ body {
 
 .card-content img {
   margin-top: 10px;
-  max-width: 100px;
+  max-width: 500px;
   border-radius: 8px;
+}
+
+/* Single large card image */
+.single-image {
+  max-width: 350px; /* was 300px */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Multiple project images */
+.project-image {
+  width: 220px; /* was 150px */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 .text-color {
@@ -254,7 +287,6 @@ body {
   border: 5px solid #fff5fa;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
 
 .text-highlight{
   color: rgb(106, 32, 67);

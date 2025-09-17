@@ -4,16 +4,16 @@ import './index.css';
 // import { Link } from 'react-router-dom';
 import BTDCover from '../images/BTD_Cover.png';
 import FishingForCover from '../images/FishingForCover.png';
+import JaceHi from '../images/Jace_hi.png';
 
 const cards = [
         {
         title: 'Welcome to my personal website!',
         content: "Front-end Developer, Digital Artist, Practicing Game Developer",
-        image: 'https://via.placeholder.com/150/8e44ad/FFFFFF?text=Card+1',
         socials: [
             {name: 'GitHub', icon: '/icons/github_icon.png', url: 'https://github.com/JaidJaceB10'},
             {name: 'LinkedIn', icon: '/icons/linkedin_icon.png', url: 'https://www.linkedin.com/in/jaideen-jace-bondoc-73a724323/'},
-            {name:'Instagram', icon: '/icons/ig_icon.png', url: 'https://www.instagram.com/itsjaceeee/'},
+            {name:'Art Instagram', icon: '/icons/ig_icon.png', url: 'https://www.instagram.com/applerose301/'},
         ]
         },
         {
@@ -27,8 +27,8 @@ const cards = [
         },
         {
         title: 'Thanks for visiting!',
-        content: "Overtime this website will continue to grow and develop, but for now, thank you for checking out what I have so far!",
-        image: 'https://via.placeholder.com/150/c0392b/FFFFFF?text=Card+3'
+        content: "Thank you for checking out what I have so far!",
+        image: JaceHi,
         }
     ];
 
@@ -52,7 +52,7 @@ export default function Cards() {
                             <div className="card-content text-color">
                             <h3>{card.title}</h3>
                             <p>{card.content}</p>
-                            <img src={card.image} alt={card.title} />
+                            <img src={card.image} alt={card.title}/>
 
                             {/* 👇 Add this only if it's card 0 and has socials */}
                             {rotation === 0 && card.socials && (
