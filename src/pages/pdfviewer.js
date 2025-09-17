@@ -7,7 +7,7 @@ export default function PDFViewer({file, height = "600px"}) {
     <div style={{ width: "100%", height, marginTop: "2rem" }}>
 
         <iframe
-          src={file}
+          src={process.env.PUBLIC_URL + file}
           width="100%"
           height="100%"
           style={{ border: "none" }}
