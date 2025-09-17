@@ -20,7 +20,6 @@ import Miffy from '../images/MiffyMittens.png';
 import Mort from '../images/MortMittens.png';
 import Fionna from '../images/FionnaTrixxie.png';
 
-import Weaver from '../images/PW_NeverforInfo.png';
 import WeaverComp from '../images/PW_NeverforComp.png';
 import WeaverDoodles from '../images/PW_NeverforDoodles.png';
 import WeaverProcess from '../images/PW_NeverforProcess.png';
@@ -28,7 +27,6 @@ import WeaverInspo from '../images/PW_NeverforInspo.png';
 import WeaverConcept from '../images/PW_NeverforConcept.png';
 import WeaverConcept2 from '../images/PW_NeverforConcept2.png';
 
-import TLLInfo from '../images/TLL_Info.png';
 import Mallace from '../images/Mallace.png';
 import Persimmon from '../images/DarlenePersimmon.png';
 import Joshua from '../images/JoshuaMatthews.png';
@@ -44,8 +42,8 @@ export default function CharacterDesign() {
   const BTDImages = [BTDCover, BTDInfo, Dante, Josie, Kathy, Naomi, BTDProcess];
   const GwynethImages = [Gwyneth, GwynethHeadshot, GwynethDoodle];
   const MLMImages = [MLMGen, MLMShapes, Miffy, Mort, Fionna];
-  const WeaverImages = [Weaver, WeaverComp, WeaverDoodles, WeaverProcess, WeaverInspo, WeaverConcept, WeaverConcept2];
-  const TLLImages = [TLLInfo, Mallace, Persimmon, Joshua, TLLInspo];
+  const WeaverImages = [WeaverComp, WeaverDoodles, WeaverProcess, WeaverInspo, WeaverConcept, WeaverConcept2];
+  const TLLImages = [ Mallace, Persimmon, Joshua, TLLInspo];
   const TTBImages = [Salem, Salem2, TTBInfo, TTBProcess];
 
 
