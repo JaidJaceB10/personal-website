@@ -24,6 +24,8 @@ export default function AppRoutes() {
       <Route path="/characterdesign" element={<CharacterDesign />} />
       <Route path="/confectchaos" element={<ConfectioneryChaos />} />
       <Route path="/paradisprom" element={<ParadisoPromenade />} />
+      <Route path="/personal-website/paradisprom" element={<ParadisoPromenade />} />
+      <Route path="https://jaidjaceb10.github.io/personal-website/paradisprom" element={<ParadisoPromenade />} />
       <Route path="/treeslisten" element={<TheTreesAreListening />} />
       {/* Add more routes as needed */}
     
