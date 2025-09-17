@@ -11,11 +11,23 @@ const cards = [
         title: 'Welcome to my personal website!',
         content: "Front-end Developer, Digital Artist, Practicing Game Developer",
         socials: [
-            {name: 'GitHub', icon: '/icons/github_icon.png', url: 'https://github.com/JaidJaceB10'},
-            {name: 'LinkedIn', icon: '/icons/linkedin_icon.png', url: 'https://www.linkedin.com/in/jaideen-jace-bondoc-73a724323/'},
-            {name:'Art Instagram', icon: '/icons/ig_icon.png', url: 'https://www.instagram.com/applerose301/'},
-        ]
-        },
+            { 
+        name: 'GitHub', 
+        icon: process.env.PUBLIC_URL + '/icons/github_icon.png', 
+        url: 'https://github.com/JaidJaceB10' 
+      },
+      { 
+        name: 'LinkedIn', 
+        icon: process.env.PUBLIC_URL + '/icons/linkedin_icon.png', 
+        url: 'https://www.linkedin.com/in/jaideen-jace-bondoc-73a724323/' 
+      },
+      { 
+        name:'Art Instagram', 
+        icon: process.env.PUBLIC_URL + '/icons/ig_icon.png', 
+        url: 'https://www.instagram.com/applerose301/' 
+      },
+    ]
+  },
         {
         title: 'Here are some of my projects!',
         content: "Below are just a few projects I've worked on!",

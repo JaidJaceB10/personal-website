@@ -13,8 +13,10 @@ import TheTreesAreListening from './treeslisten';
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/personal-website" element={<Home />} />
+      <Route path="/personal-website/" element={<Home />} />
       <Route path="/" element={<Home />} />
+      <Route path="" element={<Home />} />
+      <Route path="https://jaidjaceb10.github.io/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/storyboards" element={<Storyboards />} />
