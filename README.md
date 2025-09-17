@@ -18,4 +18,4 @@ As a practicing game developer, I present to you a few of my more recent video g
 
 ## Contact Me!
 
-If what's been shared interests you, please consult the "COntact" page for more information on how to reach me! Thank you for your time!
+If what's been shared interests you, please consult the "Contact" page for more information on how to reach me! Thank you for your time!
