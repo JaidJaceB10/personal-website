@@ -24,7 +24,7 @@ export default function ParadisoPromenade() {
         <b>Status:</b> Conceptualized, not in development(?)
       </p>
 
-      <PDFViewer file="/ParadisoPromenade.pdf"/>
+      <PDFViewer file={process.env.PUBLIC_URL + "/ParadisoPromenade.pdf"}/>
     </div>
   )
 }
