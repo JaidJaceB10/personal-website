@@ -33,6 +33,7 @@ export default function About() {
                 <ul>
                     <li> <b>City College of San Francisco</b> - Associate’s Degree in English <i>(2019 - 2021)</i></li>
                     <li> <b>San Francisco State Univeristy</b> - Bachelor’s Degree in Computer Science (Minor in Video Game Studies) <i>(2021 - 2025)</i></li>
+                    <li><b>Harvard University (HarvardX), Online</b> - Certification of Completion for “CS50’s Introduction to Cybersecurity” <i>(2025 - 2025)</i></li>
                 </ul>
             </p>
             <p>
