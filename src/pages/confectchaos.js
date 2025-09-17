@@ -1,4 +1,4 @@
-import Slideshow from './slideshow';
+// import Slideshow from './slideshow';
 import './index.css';
 
 //Import Images

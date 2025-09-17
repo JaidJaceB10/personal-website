@@ -1,4 +1,4 @@
-import Slideshow from './slideshow';
+// import Slideshow from './slideshow';
 import PDFViewer from './pdfviewer';
 import './index.css';
 
