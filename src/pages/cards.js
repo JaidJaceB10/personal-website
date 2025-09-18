@@ -97,14 +97,14 @@ export default function Cards() {
                             {rotation === 0 && index === 1 ? (
                             <div className="project-images">
                                 {card.image.map((project, i) => (
-                                <a key={i} href={project.url} target="_blank" rel="noopener noreferrer">
+                                // <a key={i} href={project.url} target="_blank" rel="noopener noreferrer">
                                     <img
                                     src={project.cover}
                                     alt={project.name}
                                     className="project-cover"
                                     title={project.name}
                                     />
-                                </a>
+                                // </a>
                                 ))}
                             </div>
                             ) : (
