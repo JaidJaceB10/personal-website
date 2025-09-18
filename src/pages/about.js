@@ -33,7 +33,7 @@ export default function About() {
                 <ul>
                     <li><b>Harvard University (HarvardX), Online</b> - Certification of Completion for “CS50’s Introduction to Cybersecurity” <i>(June 2025 - July 2025)</i></li>
                     <li> <b>San Francisco State Univeristy</b> - Bachelor’s Degree in Computer Science (Minor in Video Game Studies) <i><b>with Dean’s List (FALL 2021, SPRING 2023, SPRING 2024, SPRING 2025) </b>(August 2021 - May 2025)</i></li>
-                    <li> <b>City College of San Francisco</b> - Associate’s Degree in English <i><b>with Honors’ Award (SPRING/FALL 2021) (August 2019 - May 2021)</b></i></li>
+                    <li> <b>City College of San Francisco</b> - Associate’s Degree in English <i><b>with Honors’ Award (SPRING/FALL 2021) </b>(August 2019 - May 2021)</i></li>
                 </ul>
             </p>
             <p>
