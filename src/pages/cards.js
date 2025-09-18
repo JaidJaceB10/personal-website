@@ -31,12 +31,12 @@ const cards = [
   },
         {
         title: 'Here are some of my projects!',
-        content: "Below are just a few projects I've worked on!",
+        content: "Below are just a few project thumbnails I've worked on! If you'd like to know more, please check out the 'My Projects' dropmenu!",
         image: [
             { 
         name: 'Beyond the Depths', 
         cover: BTDCover, 
-        url: '/personal-website/characterdesign' 
+        // url: '/personal-website/characterdesign' 
       },
       { 
         name: 'Fishing For..?', 
