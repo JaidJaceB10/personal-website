@@ -36,7 +36,7 @@ const cards = [
             { 
         name: 'Beyond the Depths', 
         cover: BTDCover, 
-        // url: '/personal-website/characterdesign' 
+        url: '/personal-website/characterdesign' 
       },
       { 
         name: 'Fishing For..?', 
