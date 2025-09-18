@@ -36,17 +36,17 @@ const cards = [
             { 
         name: 'Beyond the Depths', 
         cover: BTDCover, 
-        url: '/personal-website/characterdesign' 
+        // url: '/personal-website/characterdesign' 
       },
       { 
         name: 'Fishing For..?', 
         cover: FishingForCover, 
-        url: '/personal-website/storyboards' 
+        // url: '/personal-website/storyboards' 
       },
       { 
         name:'Paradiso Promenade', 
         cover: ParadisPromCover, 
-        url: '/personal-website/paradisprom' 
+        // url: '/personal-website/paradisprom' 
       },
     ]
         },
