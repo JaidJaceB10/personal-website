@@ -4,6 +4,7 @@ import './index.css';
 // import { Link } from 'react-router-dom';
 import BTDCover from '../images/BTD_Cover.png';
 import FishingForCover from '../images/FishingForCover.png';
+import ParadisPromCover from '../images/ParadisProm_Cover.png';
 import JaceHi from '../images/Jace_hi.png';
 
 const cards = [
@@ -32,10 +33,22 @@ const cards = [
         title: 'Here are some of my projects!',
         content: "Below are just a few projects I've worked on!",
         image: [
-            {name: 'Beyond the Depths', image: BTDCover, link:''},
-            {name: 'Fishing For...?', image: FishingForCover, link:''},
-            {name: 'Paradiso Promenade', image:'https://via.placeholder.com/150/16a085/FFFFFF?text=Card+2', link:''},
-        ]
+            { 
+        name: 'Beyond the Depths', 
+        cover: BTDCover, 
+        url: '/characterdesign' 
+      },
+      { 
+        name: 'Fishing For..?', 
+        cover: FishingForCover, 
+        url: '/storyboards' 
+      },
+      { 
+        name:'Paradiso Promenade', 
+        cover: ParadisPromCover, 
+        url: '/paradisprom' 
+      },
+    ]
         },
         {
         title: 'Thanks for visiting!',
@@ -64,7 +77,6 @@ export default function Cards() {
                             <div className="card-content text-color">
                             <h3>{card.title}</h3>
                             <p>{card.content}</p>
-                            <img src={card.image} alt={card.title}/>
 
                             {/* 👇 Add this only if it's card 0 and has socials */}
                             {rotation === 0 && card.socials && (
@@ -80,6 +92,26 @@ export default function Cards() {
                                 </a>
                                 ))}
                             </div>
+                            )}
+                            {/* Show project images only on the second card */}
+                            {rotation === 0 && index === 1 ? (
+                            <div className="project-images">
+                                {card.image.map((project, i) => (
+                                <a key={i} href={project.url} target="_blank" rel="noopener noreferrer">
+                                    <img
+                                    src={project.cover}
+                                    alt={project.name}
+                                    className="project-cover"
+                                    title={project.name}
+                                    />
+                                </a>
+                                ))}
+                            </div>
+                            ) : (
+                            // Show single image for other cards
+                            typeof card.image === 'string' && (
+                                <img src={card.image} alt={card.title} />
+                            )
                             )}
                         </div>
                         </div>

@@ -35,15 +35,18 @@ body {
 /* Card CSS Portion */
 
 .card-scene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   perspective: 1000px;
   width: 100%;
-  max-width: 500px;
+  max-width: 700px;
   height: auto;
   margin: 2rem auto;
   position: relative;
   cursor: pointer;
   height: auto;
-  min-height: 780px;
+  min-height: 900px;
 }
 
 .card {
@@ -65,7 +68,7 @@ body {
   backface-visibility: hidden;
   transform-style: preserve-3d;
   padding: 1rem;
-  min-height: 200px;
+  min-height: 600px;
 }
 
 .card.front {
@@ -77,13 +80,13 @@ body {
 .card.middle {
   z-index: 2;
   transform: rotateY(15deg) scale(0.95) translateX(15px);
-  opacity: 7%;
+  opacity: 50%;
 }
 
 .card.back {
   z-index: 1;
   transform: rotateY(30deg) scale(0.9) translateX(30px);
-  opacity: 5%;
+  opacity: 25%;
 }
 
 .card-content {
@@ -96,29 +99,25 @@ body {
   border-radius: 8px;
 }
 
-/* Single large card image */
-.single-image {
-  max-width: 350px; /* was 300px */
-  height: auto;
-  display: block;
-  margin: 10px auto;
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-/* Multiple project images */
-.project-image {
-  width: 220px; /* was 150px */
-  height: auto;
+.project-cover {
+  height: 310px;
+  max-width: 200px;
   border-radius: 8px;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
-.project-image:hover {
+.project-cover:hover {
   transform: scale(1.05);
 }
 
-.text-color {
-  color: rgb(106, 32, 67);
-}
 
 .body-text {
   text-align: center;
