@@ -25,19 +25,19 @@ export default function AppRoutes() {
       <Route path="https://jaidjaceb10.github.io/contact" element={<Contact />} />
       <Route path="/storyboards" element={<Storyboards />} />
       <Route path="/personal-website/storyboards" element={<Storyboards />} />
-      <Route path="https://jaidjaceb10.github.io/storyboards" element={<Storyboards />} />
+      <Route path="jaidjaceb10.github.io/storyboards" element={<Storyboards />} />
       <Route path="/fullpieces" element={<FullPieces />} />
       <Route path="/personal-website/fullpieces" element={<FullPieces />} />
       <Route path="https://jaidjaceb10.github.io/fullpieces" element={<FullPieces />} />
       <Route path="/characterdesign" element={<CharacterDesign />} />
       <Route path="/personal-website/characterdesign" element={<CharacterDesign />} />
-      <Route path="https://jaidjaceb10.github.io/characterdesign" element={<CharacterDesign />} />
+      <Route path="jaidjaceb10.github.io/characterdesign" element={<CharacterDesign />} />
       <Route path="/confectchaos" element={<ConfectioneryChaos />} />
       <Route path="/personal-website/confectchaos" element={<ConfectioneryChaos />} />
       <Route path="https://jaidjaceb10.github.io/confectchaos" element={<ConfectioneryChaos />} />
       <Route path="/paradisprom" element={<ParadisoPromenade />} />
       <Route path="/personal-website/paradisprom" element={<ParadisoPromenade />} />
-      <Route path="https://jaidjaceb10.github.io/paradisprom" element={<ParadisoPromenade />} />
+      <Route path="jaidjaceb10.github.io/paradisprom" element={<ParadisoPromenade />} />
       <Route path="https://jaidjaceb10.github.io/personal-website/paradisprom" element={<ParadisoPromenade />} />
       <Route path="/treeslisten" element={<TheTreesAreListening />} />
       <Route path="/personal-website/treeslisten" element={<TheTreesAreListening />} />
