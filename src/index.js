@@ -5,6 +5,7 @@ import {Navbar, Footer} from './pages/Layout';
 import AppRoutes from './pages/Routes';
 
 function App() {
+  
   return (
     <div className="app-container">
     <Navbar />
@@ -20,7 +21,7 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename="/personal-website">
     <App />
   </BrowserRouter>
   </React.StrictMode>
